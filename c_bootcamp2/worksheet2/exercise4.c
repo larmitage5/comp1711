@@ -1,10 +1,13 @@
 #include <stdio.h>
-int main() {
-    int array[]={2,4,5,3,1};
-    int i;
-
-    for (i=0;i++;i<4)
-    {
-        printf("%d", array[i+1]);
-    }
+int main(){
+int arr[5] =  {1,2,3,4,5};
+int last = arr[4];
+for (int i=4;i>0;i--) {
+    arr[i] = arr[i-1];
+}
+arr[0] = last;
+for (int i=0;i<5;i++){
+    printf("%d\n", arr[i]);
+}
+return 0;
 }
