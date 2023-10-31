@@ -90,4 +90,6 @@ int main()
         counter++;
     }
     printf("%d\n", counter);
+    printf("%s\n", songs[0]);
+    return 0;
 }
