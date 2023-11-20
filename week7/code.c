@@ -20,6 +20,7 @@ int main()
     char choice;
     int counter = 0;
 
+
     while (1)
     {
         FILE *input = fopen(filename, "r");
